@@ -12,22 +12,21 @@
 ### 2019 ASPDAC
 - **TNPU: An Efficient Accelerator Architecture for Training Convolutional Neural Networks.** (ICT)[[Download PDF]](https://dl.acm.org/citation.cfm?id=3287641)
 
-[paper with less value]:
-    ### 2019 ISSCC
-    - **An 11.5TOPS/W 1024-MAC Butterfly Structure Dual-Core Sparsity-Aware Neural Processing Unit in 8nm Flagship Mobile SoC.** (Samsung)
-    - **A 20.5TOPS and 217.3GOPS/mm2 Multicore SoC with DNN Accelerator and Image Signal Processor Complying with ISO26262 for Automotive Applications.** (Toshiba)
-    - **An 879GOPS 243mW 80fps VGA Fully Visual CNN-SLAM Processor for Wide-Range Autonomous Exploration.** (Michigan)
-    - **A 2.1TFLOPS/W Mobile Deep RL Accelerator with Transposable PE Array and Experience Compression.** (KAIST)
-    - **A 65nm 0.39-to-140.3TOPS/W 1-to-12b Unified Neural-Network Processor Using Block-Circulant-Enabled Transpose-Domain Acceleration with 8.1× Higher TOPS/mm2 and 6T HBST-TRAM-Based 2D Data-Reuse Architecture.** (THU, National Tsing Hua University, Northeastern University)
-    - **A 65nm 236.5nJ/Classification Neuromorphic Processor with 7.5% Energy Overhead On-Chip Learning Using Direct Spike-Only Feedback.** (SNU)
-    - **LNPU: A 25.3TFLOPS/W Sparse Deep-Neural-Network Learning Processor with Fine-Grained Mixed Precision of FP8-FP16.** (KAIST)
-    - A 1Mb Multibit ReRAM Computing-In-Memory Macro with 14.6ns Parallel MAC Computing Time for CNN-Based AI Edge Processors. (National Tsing Hua University)
-    - Sandwich-RAM: An Energy-Efficient In-Memory BWN Architecture with Pulse-Width Modulation. (Southeast University, Boxing Electronics, THU)
-    - A Twin-8T SRAM Computation-In-Memory Macro for Multiple-Bit CNNBased Machine Learning. (National Tsing Hua University, University of Electronic Science and Technology of China, ASU, Georgia Tech)
-    - A Reconfigurable RRAM Physically Unclonable Function Utilizing PostProcess Randomness Source with <6×10-6 Native Bit Error Rate. (THU, National Tsing Hua University, Georgia Tech)
-    - A 65nm 1.1-to-9.1TOPS/W Hybrid-Digital-Mixed-Signal Computing Platform for Accelerating Model-Based and Model-Free Swarm Robotics. (Georgia Tech)
-    - A Compute SRAM with Bit-Serial Integer/Floating-Point Operations for Programmable In-Memory Vector Acceleration. (Michigan)
-    - All-Digital Time-Domain CNN Engine Using Bidirectional Memory Delay Lines for Energy-Efficient Edge Computing. (UT Austin)
+### 2019 ISSCC
+- **An 11.5TOPS/W 1024-MAC Butterfly Structure Dual-Core Sparsity-Aware Neural Processing Unit in 8nm Flagship Mobile SoC.** (Samsung)
+- **A 20.5TOPS and 217.3GOPS/mm2 Multicore SoC with DNN Accelerator and Image Signal Processor Complying with ISO26262 for Automotive Applications.** (Toshiba)
+- **An 879GOPS 243mW 80fps VGA Fully Visual CNN-SLAM Processor for Wide-Range Autonomous Exploration.** (Michigan)
+- **A 2.1TFLOPS/W Mobile Deep RL Accelerator with Transposable PE Array and Experience Compression.** (KAIST)
+- **A 65nm 0.39-to-140.3TOPS/W 1-to-12b Unified Neural-Network Processor Using Block-Circulant-Enabled Transpose-Domain Acceleration with 8.1× Higher TOPS/mm2 and 6T HBST-TRAM-Based 2D Data-Reuse Architecture.** (THU, National Tsing Hua University, Northeastern University)
+- **A 65nm 236.5nJ/Classification Neuromorphic Processor with 7.5% Energy Overhead On-Chip Learning Using Direct Spike-Only Feedback.** (SNU)
+- **LNPU: A 25.3TFLOPS/W Sparse Deep-Neural-Network Learning Processor with Fine-Grained Mixed Precision of FP8-FP16.** (KAIST)
+- A 1Mb Multibit ReRAM Computing-In-Memory Macro with 14.6ns Parallel MAC Computing Time for CNN-Based AI Edge Processors. (National Tsing Hua University)
+- Sandwich-RAM: An Energy-Efficient In-Memory BWN Architecture with Pulse-Width Modulation. (Southeast University, Boxing Electronics, THU)
+- A Twin-8T SRAM Computation-In-Memory Macro for Multiple-Bit CNNBased Machine Learning. (National Tsing Hua University, University of Electronic Science and Technology of China, ASU, Georgia Tech)
+- A Reconfigurable RRAM Physically Unclonable Function Utilizing PostProcess Randomness Source with <6×10-6 Native Bit Error Rate. (THU, National Tsing Hua University, Georgia Tech)
+- A 65nm 1.1-to-9.1TOPS/W Hybrid-Digital-Mixed-Signal Computing Platform for Accelerating Model-Based and Model-Free Swarm Robotics. (Georgia Tech)
+- A Compute SRAM with Bit-Serial Integer/Floating-Point Operations for Programmable In-Memory Vector Acceleration. (Michigan)
+- All-Digital Time-Domain CNN Engine Using Bidirectional Memory Delay Lines for Energy-Efficient Edge Computing. (UT Austin)
 
 ### 2019 HPCA
 - **HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array.** (Duke, USC)[[Download PDF]](https://arxiv.org/abs/1901.02067)
