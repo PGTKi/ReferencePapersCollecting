@@ -21,16 +21,16 @@
   - convolutional layer 10-channel 5x5
   - pooling layer1: 10 channels to 5x5
   - reshape (flattening) layer: to a 250-element vector
-- AE for Block B: combines 
-  - the 62-element vector of the BIE with 
-  - the vector from C
-apply a ReLU activation function 
-a fully-connected layer connects the 312 inputs to the 62 output channels.
+- AE for Block B: 
+  - combines the 62-element vector of the BIE with the vector from C
+  - apply a ReLU activation function 
+  - a fully-connected layer connects the 312 inputs to the 62 output channels.
+  
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/The%20BIE%20(left%20channel)%20and%20the%20AE%20(blocks%20B%20and%20C)%20for%20NIST.PNG)
 
 
-- **Cosrse-grained reconfigurable array(CGRA):** Samsung Reconfigurable Processor (SRP): 32-bit floating-point, 4x4 heterogeneous PEs, 320KB of on-chip data
-SRAM
+- **Cosrse-grained reconfigurable array(CGRA):** Samsung Reconfigurable Processor (SRP): 
+32-bit floating-point, 4x4 heterogeneous PEs, 320KB of on-chip data SRAM
   - programmable to a variety of distinct tasks 
   - excel at data-flow-style processing of loops
 
