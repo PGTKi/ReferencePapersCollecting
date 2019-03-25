@@ -10,7 +10,7 @@ ref:  https://www.zhihu.com/question/296404213/answer/547163236
 
 ###### Neural Architecture Search (NAS): 
 
-用学习算法去不断神经网络结构，以提高SOTA或者其他网络性能指标。
+用学习算法去不断学习神经网络结构，以提高SOTA或者其他网络性能指标。
 
 * First attempt: [**Zoph et al. 2017**](https://arxiv.org/abs/1611.01578), Neural Architecture Search with Reinforcement Learning
 
