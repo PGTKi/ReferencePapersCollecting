@@ -7,7 +7,7 @@
     - software implementation
     
 - **Augmenting engine(AE):** re-trained(on-device using a small set of user-specific data)
-    - c block
+    - C block
       - learn the user data
     - B block
       - learn to combine theoutputs of the BIE and the C block adaptively
@@ -15,3 +15,4 @@
 SRAM
   - programmable to a variety of distinct tasks 
   - excel at data-flow-style processing of loops
+ 
