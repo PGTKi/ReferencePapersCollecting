@@ -53,4 +53,14 @@
 - loop fusion
 - loop interchange
 
+# Results
+- Accuracy (based on NIST'19: a collection of over 730000 letters and digits for training and 82000 for testing)
+  - LeNet-5: for NIST'19 - 82.1% for user data - 76.3%
+  - proposed: 93.2%
+- Mapping the code to a CGRA
+  - 45x speed up 
+- energy consumption
+  - 49-fold reduction over ARMv7 processor
+  - 3-fold reduction over 3-way VLIW processor
+
 
