@@ -36,22 +36,23 @@
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Schematic%20of%20a%20coarse-grained%20reconfigurable%20array%20processor.PNG)
 
-    - runs bare-metal
+    - runs bare-metal: not available for runtime environments (i.e., Python) or libraries (such as the C standard library or math libraries)
       - simple deep neural network framework written in pure C
     - the latency of the load instruction is set tO 16 cycles from the original six 
       - 4 for actual memory access latency and 12 for *data memory queue*(DMQ)
-# Workflow
-> inputs read: input dataset, input labels, network specification
->> parses the network specification: to construct the desired network as a C program
->>> executes this program: performing *forward propagationn*, *back propagation* and *weight updates*
-
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Training%20flow.PNG)
 
 # Code Optimizations
 **compiler-level optimizations**
 - loop unrolling
 - loop fusion
 - loop interchange
+
+# Workflow
+> inputs read: input dataset, input labels, network specification
+>> parses the network specification: to construct the desired network as a C program
+>>> executes this program: performing *forward propagationn*, *back propagation* and *weight updates*
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Training%20flow.PNG)
 
 # Results
 - Accuracy (based on NIST'19: a collection of over 730000 letters and digits for training and 82000 for testing)
