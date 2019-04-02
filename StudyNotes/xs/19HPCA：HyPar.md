@@ -57,6 +57,11 @@
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-partition%20hierarchy.PNG)
 
 # HYPAR ARCHITECTURE
+- [Hybrid Memory Cube](http://hybridmemorycube.org): 
+  stacked DRAM dies and logic die connected by through silicon vias(TSVs)
+  - weight rows (green) shared by processing engines horizontally
+  - feature map rows (blue) shared by processing engines diagonally
+  - partial sum rows (red) accumulated vertically
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-accelerator%20architecture.PNG)
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-optimized%20parallelism.PNG)
