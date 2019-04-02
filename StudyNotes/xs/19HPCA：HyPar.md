@@ -42,16 +42,17 @@
 - Partition Between Two Accelerators
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-BPTA.PNG)
+
 - Hierarchical Partition
 
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-partition%20hierarchy.PNG)
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-HP.PNG)
 
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-partition%20hierarchy.PNG)
+
 # HYPAR ARCHITECTURE
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-optimized%20parallelism.PNG)
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-accelerator%20architecture.PNG)
-
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-optimized%20parallelism.PNG)
 # Results
 - Performance
 
