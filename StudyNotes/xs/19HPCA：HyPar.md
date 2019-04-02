@@ -42,6 +42,7 @@
 - Partition Between Two Accelerators
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-BPTA.PNG)
+
 - Hierarchical Partition
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-partition%20hierarchy.PNG)
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-HP.PNG)
