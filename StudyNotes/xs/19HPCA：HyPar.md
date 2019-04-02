@@ -18,7 +18,7 @@
   - hierarchical layer-wise dynamic programming method for partition for each layer
     - partition: feature map tesors(input & output), kernel tensors, gradient tensors, and error tensors
 # Background knowledge
-- Inference and training
+- inference and training
   - ![inference](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-Equation%201.PNG) 
   - ![training](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-Equation%202.PNG)
   - ![gradient computation](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-Equation%203.PNG)
@@ -28,4 +28,9 @@
   - model parallelism: The kernel is partitioned into N parts, and feature maps are partitioned accordingly
     - communications in data forward but no communication in error backward and weight updating
 # Communication model
-- 
+- Parallelism
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-communication.PNG)
+- Communication
+  - Intra-Layer
+  ![](
+  - Inter-Layer
