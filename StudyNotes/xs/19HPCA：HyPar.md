@@ -1,6 +1,10 @@
 ----
 **HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array. (Duke, USC)**
 ----
+[2019 HPCA](http://hpca2019.seas.gwu.edu/)
+
+*Linghao Song, Jiachen Mao, Youwei Zhuo, Xuehai Qian, Hai Li, Yiran Chen*
+
 [[论文]](https://arxiv.org/abs/1901.02067)
 # Abstract
 - **Motivation**
@@ -8,11 +12,15 @@
   - the training of DNNs is not well-explored in recent accelerator designs
 > multiple accelerators as a general architecture: for high throughput and energy efficiency
 - **Related work**
-  - DNN accelerators, e.g., Google TPU
+  - DNN accelerators, e.g., [Google TPU](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with￾custom-chip.html)
   - corresponding standards, architectures, and platforms, e.g.:
-    - Eyeriss: spatial architecture to coordinate dataflow between PEs.
-    - Neurocube: in-memory processing by deploying PEs in hybrid memory cubes (HMCs)
-    - Flexflow: systolic architecture with tiling optimization etc.
+    - [Eyeriss][1]: spatial architecture to coordinate dataflow between PEs.
+    - [Neurocube][2]: in-memory processing by deploying PEs in hybrid memory cubes (HMCs)
+    - [Flexflow][3]: systolic architecture with tiling optimization etc.
+
+[1]: https://ieeexplore.ieee.org/document/7738524
+[2]: https://ieeexplore.ieee.org/document/7551408
+[3]: https://ieeexplore.ieee.org/abstract/document/7920855/
 - **Proposal:**
   - a communication model 
   - hierarchical layer-wise dynamic programming method for partition for each layer
