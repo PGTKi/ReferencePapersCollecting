@@ -79,6 +79,8 @@
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-communication.PNG)
 
 - **Space Exploration**
+ 
+ with some layers fixed and others variable
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-space%20exploration.PNG)
 
@@ -87,6 +89,9 @@
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-scalability.PNG)
 
 - **Topology**
+  - H-tree: The bandwidth between groups in a higher hierarchy are doubled compared to that of a lower hierarchy (but the
+number of links is halved)
+  - Torus: The bandwidth for all link is the same.
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-topology.PNG)
 
