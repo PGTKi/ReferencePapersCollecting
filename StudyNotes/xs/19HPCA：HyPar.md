@@ -29,8 +29,12 @@
     - communications in data forward but no communication in error backward and weight updating
 # Communication model
 - Parallelism
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-communication.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-parallelism.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-interlayer%20communication%20dp%20mp.PNG)
 - Communication
   - Intra-Layer
-  ![](
+  
+  ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-intralayer%20communication.PNG)
   - Inter-Layer
+  
+  ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/19HPCA-HyPar-interlayer%20communication.PNG)
