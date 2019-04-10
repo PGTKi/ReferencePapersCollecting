@@ -90,7 +90,7 @@
 ## RLC: exploiting data statistics
 **Consecutive zeros with a maximum run length of 31 are represented using a 5-b number as the Run. The next value is inserted directly as a 16-b Level, and the count for run starts again.**
 1) reduce DRAM accesses using compression
-2) skip the unnecessary compu￾tations to save processing power
+2) skip the unnecessary computations to save processing power
 
   ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20Encoding%20of%20the%20RLC.PNG)
   
@@ -128,6 +128,8 @@ The numbers of filters (p) and channels (q) that the PE processes at once are st
   - ifmap and psum spads(registers): 12 b ×16 b and 24 b ×16 b, respectively
 - Data gating logic
   - zero ifmap value detected, disable MAC -> 45% power consumption decrease
+  
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20PE%20architecture.PNG)
 # Qusetion 
 1. strip mining
 > The strip-mined PE set width is determined by a process that optimizes for overall energy efficiency as introduced in [[32]](https://ieeexplore.ieee.org/document/7551407).
