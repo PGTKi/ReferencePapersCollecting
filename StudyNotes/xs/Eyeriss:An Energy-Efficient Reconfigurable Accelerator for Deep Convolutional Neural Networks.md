@@ -9,7 +9,7 @@
   - significant data movement from on-chip and off-chip
 - **Methods**
   - exploiting data reuse in a multilevel memory hierarchy
-  > the hardware needs to be reconfig￾urable to support different shapes
+  > the hardware needs to be reconfigurable to support different shapes
   - exploiting data statistics 
     - compression and data adaptive processing 
 - **Proposal:Eyeriss**
