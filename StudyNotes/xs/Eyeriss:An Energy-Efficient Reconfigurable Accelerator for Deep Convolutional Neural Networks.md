@@ -118,8 +118,10 @@ a ***single-cycle* multicast** from the GLB to a group of PEs that receive the s
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20Mapping%20of%20the%20PE%20sets.PNG)
 
 ## Processing Element and Data Gating
+
 The numbers of filters (p) and channels (q) that the PE processes at once are statically configured into the control of a PE.
--pipeline
+
+- pipeline
   - one stage for spad access, and the remaining two for computation
 - Spads
   - filter spad(SRAM): 224-b ×16-b 
