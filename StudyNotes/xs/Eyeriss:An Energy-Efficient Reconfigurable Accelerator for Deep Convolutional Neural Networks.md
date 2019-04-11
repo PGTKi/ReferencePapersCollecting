@@ -58,6 +58,7 @@
     - Width Larger Than 14：divided into separated segments that are mapped independently to the array(CONV2 is divided into 5 ×14 and 5 × 13)
     - Height Larger Than 12: not supported
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20Mapping%20of%20the%20PE%20sets.PNG)
+
 - Dimensions Beyond 2-D in PE Array
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20dimensions%20beyond%202-D.PNG)
   - filter reuse(different ifmaps): [Fig. 6(a)]
@@ -80,7 +81,7 @@
 
   ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20PARAMETERS%20OF%20AlexNet.PNG)
   
-  - PE array processing passes
+- PE array processing passes
   
     In a pass, each input data are read only once from the GLB, and the psums are stored back to the GLB only once when the processing is finished.
   
