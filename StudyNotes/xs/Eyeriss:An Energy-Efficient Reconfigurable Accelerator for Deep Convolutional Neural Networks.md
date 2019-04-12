@@ -48,8 +48,11 @@
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss1-D%20convolution%20primitive%20in%20a%20PE.PNG)
   - each PE can use the local spads for both convolutional data reuse and psum accumulation
   - spads capacity: 1) S for a row of filter weights; 2) S for a sliding window of ifmap values; 3) 1 for the psum accumulation
+  
 - 2-D Convolution PE Set
+
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss2-D%20convolution.PNG)
+
 1) shares the same row of filter or ifmap across primitives 
 2) accumulates the psums from multiple primitives together
     - height: filter rows (R);  width: ofmap rows (E)
