@@ -12,9 +12,15 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
 - ifmap reuse: Each ifmap pixel is further reused across M filters (to generate the M output channels) in both CONV and FC layers.
 
 # EXISTING CNN DATAFLOWS
-A. Weight Stationary (WS) Dataflow:
-  Once a weight is fetched from DRAM to the RF of a PE, the PE runs through all NE2 operations that use the same filter weight.
+  A. Weight Stationary (WS) Dataflow:
+  Once a weight is fetched from DRAM to the RF of a PE, the PE runs through all NE<sup>2</sup> operations that use the same filter weight.
+  
+  B. Output Stationary (OS) Dataflow: 
+  - SOC-MOP: processing a single plane of ofmap at a time.  **convolutional reuse** & **psum accumulation**
+  - MOC-MOP: processing multiple ofmap planes with multiple pixels in the same plane at a time. **convolutional reuse** & **ifmap reuse**
+  - MOC-SOP: processing multiple ofmap channels but with only one pixel in a channel at a time. **ifmap reuse**
+  
+  C. No Local Reuse (NLR) Dataflow:
+    (1) it does not exploit data reuse at the RF level
+    (2)it uses inter-PE communication for ifmap reuse and psum accumulation.
 
-through all NE2 operations that use the same filter weight.
-B. Output Stationary (OS) Dataflow
-C. No Local Reuse (NLR) Dataflow
