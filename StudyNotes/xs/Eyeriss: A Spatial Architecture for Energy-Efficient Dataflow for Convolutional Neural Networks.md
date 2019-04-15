@@ -10,3 +10,11 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
 - convolutional reuse: Each filter weight is reused E\*E times in the same ifmap plane, and each ifmap pixel, i.e., activation, is usually reused R\*R timesin the same filter plane.
 - filter reuse: Each filter weight is further reused across the batch of N ifmaps in both CONV and FC layers.
 - ifmap reuse: Each ifmap pixel is further reused across M filters (to generate the M output channels) in both CONV and FC layers.
+
+# EXISTING CNN DATAFLOWS
+A. Weight Stationary (WS) Dataflow:
+  Once a weight is fetched from DRAM to the RF of a PE, the PE runs through all NE2 operations that use the same filter weight.
+
+through all NE2 operations that use the same filter weight.
+B. Output Stationary (OS) Dataflow
+C. No Local Reuse (NLR) Dataflow
