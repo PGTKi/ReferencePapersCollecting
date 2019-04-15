@@ -23,4 +23,30 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   C. No Local Reuse (NLR) Dataflow:
     (1) it does not exploit data reuse at the RF level
     (2)it uses inter-PE communication for ifmap reuse and psum accumulation.
+    PEs within the same group: read the same ifmap pixel but with different filter weights from the same input channel. 
+    Different PE groups read ifmap pixels and filter weights from different input channels. 
+    The generated psums are accumulated across PE groups in the whole array.
+    
+# ROW STATIONARY
+- Primitive
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss1-D%20convolution%20primitive%20in%20a%20PE.PNG)
+
+- Two-Step Primitive Mapping
+  - Logical Mapping:
+  
+  ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss2-D%20convolution.PNG)
+  
+  N × M ×C logical PE sets required: ifmap/filter channels (C), number of filters (M) and fmap batch size (N)
+  
+  - Physical Mapping(folding): 
+    - Folding multiple logical PEs from the same position of different sets onto a single physical PE exploits input data reuse and psum accumulation at the RF level.
+    - Different processing passes run sequentially on the entire physical PE array.
+ - Support for Different Layer Types
+  - FC Layer: same as CONV layers
+  - POOL Layer: swapping the MAC computation with a MAX comparison function
+  
+# Energy Efficiency Analysis
+![](
+  
+  
 
