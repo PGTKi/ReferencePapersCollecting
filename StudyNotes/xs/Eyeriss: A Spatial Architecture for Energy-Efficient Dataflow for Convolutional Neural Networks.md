@@ -23,9 +23,12 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   C. No Local Reuse (NLR) Dataflow:
     (1) it does not exploit data reuse at the RF level
     (2)it uses inter-PE communication for ifmap reuse and psum accumulation.
-    PEs within the same group: read the same ifmap pixel but with different filter weights from the same input channel. 
-    Different PE groups read ifmap pixels and filter weights from different input channels. 
-    The generated psums are accumulated across PE groups in the whole array.
+
+  PEs within the same group: read the same ifmap pixel but with different filter weights from the same input channel. 
+  
+  Different PE groups read ifmap pixels and filter weights from different input channels. 
+  
+  The generated psums are accumulated across PE groups in the whole array.
     
 # ROW STATIONARY
 - Primitive
@@ -41,12 +44,18 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   - Physical Mapping(folding): 
     - Folding multiple logical PEs from the same position of different sets onto a single physical PE exploits input data reuse and psum accumulation at the RF level.
     - Different processing passes run sequentially on the entire physical PE array.
- - Support for Different Layer Types
+- Support for Different Layer Types
   - FC Layer: same as CONV layers
   - POOL Layer: swapping the MAC computation with a MAX comparison function
   
 # Energy Efficiency Analysis
-![](
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-%20ENERGY%20COST%20Relative.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-%20reuse%20ifmps%20filter.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-%20Input%20Data%20Access%20Energy%20Cost.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-%20psum%20accumulation.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-%20Psum%20Accumulation%20Energy%20Cost.PNG)
   
   
 
