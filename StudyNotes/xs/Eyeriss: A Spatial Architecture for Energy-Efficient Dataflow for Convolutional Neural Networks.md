@@ -64,3 +64,15 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   
   
 
+## Storage requirement 
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20MAPPING%20PARAMETERS.PNG)
+
+- spads:
+  - 1) p ×q × S for the rows of filter weights from q channels of p filters
+  - 2) q × S for q sliding windows of ifmap values from q different channels
+  - 3) p for the accumulation of psums in p ofmap channels
+- GLB: 
+  - n×q×r 2-D ifmaps 
+  - n×m 2-D psums 
+
+
