@@ -16,6 +16,9 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   Once a weight is fetched from DRAM to the RF of a PE, the PE runs through all NE<sup>2</sup> operations that use the same filter weight.
   
   B. Output Stationary (OS) Dataflow: 
+  
+  ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-%20OS%20dataflow%20variants.PNG)
+  
   - SOC-MOP: processing a single plane of ofmap at a time.  **convolutional reuse** & **psum accumulation**
   - MOC-MOP: processing multiple ofmap planes with multiple pixels in the same plane at a time. **convolutional reuse** & **ifmap reuse**
   - MOC-SOP: processing multiple ofmap channels but with only one pixel in a channel at a time. **ifmap reuse**
@@ -38,6 +41,8 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   - Logical Mapping:
   
   ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss2-D%20convolution.PNG)
+  
+  ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss-Shape%20Parameter.PNG)
   
   N × M ×C logical PE sets required: ifmap/filter channels (C), number of filters (M) and fmap batch size (N)
   
