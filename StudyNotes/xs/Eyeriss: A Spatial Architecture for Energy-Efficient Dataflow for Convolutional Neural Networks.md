@@ -75,4 +75,6 @@ Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow　for Convolutiona
   - n×q×r 2-D ifmaps 
   - n×m 2-D psums 
 
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/Eyeriss%20PARAMETERS%20OF%20AlexNet.PNG)
+
 
