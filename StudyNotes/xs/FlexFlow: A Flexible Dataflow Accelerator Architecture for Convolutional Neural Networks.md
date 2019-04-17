@@ -33,20 +33,22 @@ The loops marked by the inner-box are unrolled to operate in parallel, and the o
     - Neuron Parallelism (NP): unrolled with factors < Tr, Tc >
     - Synapse Parallelism (SP): unrolled with factors < Ti, Tj >
     
-- Baseline Architecture
+# Baseline Architecture
 
 The dataflow describes how the operands are dispatched, gathered, and updated among many distributed processing elements (PE).
     - SFSNMS: Systolic: synapse parallelism (SP)
     
-    ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20SFSNMS.PNG)
-    !{}(https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20SFSNMS.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20SFSNMS.PNG)
+!{}(https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20SFSNMS.PNG)
     
     - SFMNSS: 2D-Mapping: neuron parallelism (NP)
     
-    ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20SFMNSS.PNG)
-    ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20SFMNSS.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20SFMNSS.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20SFMNSS.PNG)
         
     - MFSNSS: Tiling: feature map parallelism (FP)
-    
-    ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20MFSNSS.PNG)
-    ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20MFSNSS.PNG）
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20MFSNSS.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20MFSNSS.PNG）
+
+
