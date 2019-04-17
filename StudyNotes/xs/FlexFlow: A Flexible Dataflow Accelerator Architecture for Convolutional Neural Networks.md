@@ -49,7 +49,7 @@ The dataflow describes how the operands are dispatched, gathered, and updated am
     - MFSNSS: Tiling: feature map parallelism (FP)
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20MFSNSS.PNG)
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20MFSNSS.PNG）
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20MFSNSS.PNG)
 
 
 
