@@ -39,7 +39,7 @@ The dataflow describes how the operands are dispatched, gathered, and updated am
     - SFSNMS: Systolic: synapse parallelism (SP)
     
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20SFSNMS.PNG)
-!{}(https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20SFSNMS.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20SFSNMS.PNG)
     
     - SFMNSS: 2D-Mapping: neuron parallelism (NP)
     
@@ -50,5 +50,7 @@ The dataflow describes how the operands are dispatched, gathered, and updated am
 
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20unrolling%20MFSNSS.PNG)
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20snapshot%20MFSNSS.PNG）
+
+
 
 
