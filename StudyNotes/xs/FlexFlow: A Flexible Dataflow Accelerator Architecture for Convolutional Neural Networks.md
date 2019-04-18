@@ -55,5 +55,24 @@ The dataflow describes how the operands are dispatched, gathered, and updated am
     - Fixed data direction
     - Fixed data type
     - Fixed data stride
+# FlexFlow: Flexible DataFlow Architecture
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Architecture.PNG)
+## PE 
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PE.PNG)
+## Complementary Parallelism
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20data%20mapping.PNG)
+## DataFlow
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Dataflow.PNG)
+### DataFlow1: Distribution Layer to Local Store
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Local%20Store%20Access.PNG)
+### DataFlow2: Local Store to Operator
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20FSM.PNG)
+### DataFlow3: Neuron and Kernel Buffers to Distribution Lay
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Kernel%20Buffer%20Data%20Placement%20and%20Data%20Transmission%20Pattern.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Neuron%20Buffer%20Data%20Placement%20and%20Data%20Transmission%20Pattern.PNG)
+## Determining Parallelism
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Parallelism%20constraints.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PE%20utilization.PNG)
+
     
     
