@@ -88,6 +88,7 @@ buffered in randomly accessed local storages.
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20data%20mapping.PNG)
 
 Unrolling mode for C1: < Tm = 2, Tr = 1, Tc = 2, Tn = 1, Ti = 1, Tj = 4 >.
+
 Unrolling mode for C1: < Tm = 2, Tr = 1, Tc = 2, Tn = 2, Ti = 1, Tj = 2 >.
 
 ## DataFlow
@@ -99,15 +100,29 @@ Unrolling mode for C1: < Tm = 2, Tr = 1, Tc = 2, Tn = 2, Ti = 1, Tj = 2 >.
 The neurons can be assigned to the two PE rows in alignment way, i.e. forwarding identical neurons to PEs within one column.
 
 - Relax Synchronization (RS)
+
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20RS.PNG)
+
 ### DataFlow2: Local Store to Operator
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20FSM.PNG)
 
 
 
 ### DataFlow3: Neuron and Kernel Buffers to Distribution Lay
+- In-Advanced Data Placement(IADP)
+
+        arrange the data for each on-chip buffer in advance according to the logical grouping of PEs. 
+      
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Kernel%20Buffer%20Data%20Placement%20and%20Data%20Transmission%20Pattern.PNG)
+
+- In-Place Data Replication (IPDR)
+        
+        As shown in Figure 12(b), every data read in reading controller is replicated Tr ×Tc times.
+
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Neuron%20Buffer%20Data%20Placement%20and%20Data%20Transmission%20Pattern.PNG)
+
+the factors < Tm, Tr, Tc > of current layer always equal to factors < Tn, Ti, Tj > of next layer
+
 ## Determining Parallelism
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Parallelism%20constraints.PNG)
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PE%20Utilizations.PNG)
