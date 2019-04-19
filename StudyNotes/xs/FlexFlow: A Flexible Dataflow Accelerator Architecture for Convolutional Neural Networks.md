@@ -81,7 +81,7 @@ m = 0, n = 0, r = 5, c = 2, i = 0, j = 2
 
 Each PE row can complete one convolution and serve to one output neuron. 
 
-For PEs in FlexFlow, operands are directly derived from on￾chip buffers through vertical and horizontal buses to each PE, and
+For PEs in FlexFlow, operands are directly derived from on-chip buffers through vertical and horizontal buses to each PE, and
 buffered in randomly accessed local storages.
 
 ## Complementary Parallelism
