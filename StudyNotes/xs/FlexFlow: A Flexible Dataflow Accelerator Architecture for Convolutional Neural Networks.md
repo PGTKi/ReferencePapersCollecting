@@ -72,7 +72,7 @@ The dataflow describes how the operands are dispatched, gathered, and updated am
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Neuron%20Buffer%20Data%20Placement%20and%20Data%20Transmission%20Pattern.PNG)
 ## Determining Parallelism
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Parallelism%20constraints.PNG)
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PE%20utilization.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PE%20Utilizations.PNG)
 
     
     
