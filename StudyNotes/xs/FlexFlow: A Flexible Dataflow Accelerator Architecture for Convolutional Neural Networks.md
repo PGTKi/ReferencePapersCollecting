@@ -64,7 +64,7 @@ The dataflow describes how the operands are dispatched, gathered, and updated am
 ## DataFlow
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Dataflow.PNG)
 ### DataFlow1: Distribution Layer to Local Store
-![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Local%20Store%20Access.PNG)
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/A76FB57A-1405-49A7-8CD8-5FB8CFE649DF.jpeg)
 ### DataFlow2: Local Store to Operator
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20FSM.PNG)
 ### DataFlow3: Neuron and Kernel Buffers to Distribution Lay
