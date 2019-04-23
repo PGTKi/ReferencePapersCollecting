@@ -127,5 +127,19 @@ the factors < Tm, Tr, Tc > of current layer always equal to factors < Tn, Ti, Tj
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Parallelism%20constraints.PNG)
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PE%20Utilizations.PNG)
 
-    
+# Evaluation
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20PARAMETERS%20SETTING%20OF%20FOUR%20BASELINES.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Computing%20Resource%20Utilization.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20COMPARISON%20OF%20ACCELERATORS.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Data%20Reusability.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Performance%20for%20Different%20Baselines.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20POWER%20BREAKDOWN%20BY%20COMPONENT.PNG)
+
+![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Scalability.PNG)
+
     
