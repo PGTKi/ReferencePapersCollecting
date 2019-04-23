@@ -73,7 +73,7 @@ m = 0, n = 0, r = 5, c = 2, i = 0, j = 2
         - 2D-Mapping: shifting input neurons right to left or down to up 
         - Systolic: shifting output neurons left to right
     - Fixed data type: The data in all PEs has same attribute
-    - Fixed data stride: The operations for the operands (neu￾rons or synapses) of all PEs are carried out synchronously
+    - Fixed data stride: The operations for the operands (neurons or synapses) of all PEs are carried out synchronously
 # FlexFlow: Flexible DataFlow Architecture
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Architecture.PNG)
 ## PE 
@@ -89,7 +89,7 @@ buffered in randomly accessed local storages.
 
 Unrolling mode for C1: < Tm = 2, Tr = 1, Tc = 2, Tn = 1, Ti = 1, Tj = 4 >.
 
-Unrolling mode for C1: < Tm = 2, Tr = 1, Tc = 2, Tn = 2, Ti = 1, Tj = 2 >.
+Unrolling mode for C2: < Tm = 2, Tr = 1, Tc = 2, Tn = 2, Ti = 1, Tj = 2 >.
 
 ## DataFlow
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20Dataflow.PNG)
@@ -106,7 +106,7 @@ The neurons can be assigned to the two PE rows in alignment way, i.e. forwarding
 ### DataFlow2: Local Store to Operator
 ![](https://github.com/PGTKi/ReferencePapersCollecting/blob/master/StudyNotes/xs/pictures/FlexFlow%20FSM.PNG)
 
-
+For writing operation, the addressing mode is auto-increment. For reading operation, the addressing mode is regulated by four parameters: feature map size S, kernel size K, the counter step (Tc) and the current PE location within its group. 
 
 ### DataFlow3: Neuron and Kernel Buffers to Distribution Lay
 - In-Advanced Data Placement(IADP)
